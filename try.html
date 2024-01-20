@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Personal portfolio hero header</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        a {
+            transition: all 0.3s ease;
+        }
+
+        .weight-500 {
+            font-weight: 500;
+        }
+
+        .navbar-nav {
+            font-weight: 600;
+        }
+
+        .btn {
+            position: relative;
+            padding: 13.5px 36px;
+            font-weight: 700;
+            border-radius: 30px;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .banner-image {
+            background-image: url(img/portrait-photo.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: contain;
+        }
+
+        .social-icons a {
+            margin-right: 15px;
+            color: #999;
+        }
+
+        .social-icons a:hover {
+            color: #333;
+        }
+
+        @media (max-width: 768px) {
+            .banner-image {
+                display: none;
+            }
+
+            .mobile-banner-image {
+                background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(img/portrait-photo.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container pt-5">
+        <div class="banner-image d-none d-md-block">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-lg-6 col-md-12 mr-auto pt-5">
+                        <h1 class="display-4 pb-4 weight-500 ">Hi, Hi, I'm John Deo.</h1>
+                        <p class="text-muted lead">A freelance Web developer from London. I convert custom web designs to
+                            bootstrap templates. </p>
+                        <p class="text-muted lead pb-5">I make YouTube videos and write Blog. </p>
+                        <a href="#" class="btn btn-primary btn-lg"> Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-banner-image d-md-none">
+            <div class="container py-5">
+                <div class="row py-5">
+                    <div class="col-md-12 pt-5">
+            
