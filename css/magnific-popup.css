@@ -56,9 +56,9 @@
   cursor: progress; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
-  cursor: zoom-out; }
+  cursor: -moz-pointer;
+  cursor: -webkit-pointer;
+  cursor: pointer; }
 
 .mfp-zoom {
   cursor: pointer;
@@ -267,7 +267,7 @@ img.mfp-img {
     height: auto;
     z-index: -1;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #8a5454; }
+    background: #444; }
   .mfp-figure small {
     color: #BDBDBD;
     display: block;
